@@ -55,6 +55,7 @@ class Fox(Alive):
     def death(self):
         self.count -= int(self.count * self.koef_death)
 
+   
     def info(self):
         print("count fox:", self.count)
 
